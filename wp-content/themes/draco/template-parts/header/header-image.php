@@ -66,12 +66,7 @@
   <div class="header-top">
       <!-- logo -->
 
-    <?php if(has_custom_logo()) the_custom_logo();
-
-    else { ?>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="logo"><?php bloginfo( 'name' ); ?></a>
     <?php 
-    }
 
     if ( has_nav_menu( 'top' ) ) : ?>
 
